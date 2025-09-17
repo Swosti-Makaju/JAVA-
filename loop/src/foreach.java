@@ -24,6 +24,34 @@ public class foreach {
         for (int i = 0; i <= 10; i = i + 2) {
             System.out.println(i);
         }
+
+        int number = 2;
+
+        // Print the multiplication table for the number 2
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(number + " x " + i + " = " + (number * i));
+        }
+
+        int sum = 0;
+        for (int i = 1; i <= 100; i++) {
+            sum += i; // Add each number to sum
+        }
+        System.out.println("Sum of first 100 natural numbers: " + sum);
+
+        for (int seat = 1; seat <= 5; seat++) {
+            System.out.println("Seat number: " + seat);
+        }
+
+        int n = 5;
+        int fact = 1;
+
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+
+        System.out.println("Factorial of " + n + " is " + fact);
+        // Output: Factorial of 5 is 120
+
     }
 
 }
