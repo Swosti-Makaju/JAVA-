@@ -49,6 +49,21 @@ public class arraywithloop {
         // Print the average
         System.out.println("The average age is: " + avg);
 
-        
+        int[] number = { 45, 12, 98, 33, 27 };
+
+        int max = number[0];
+        int min = number[0];
+
+        for (int n : number) {
+            if (n > max) {
+                max = n;
+            }
+            if (n < min) {
+                min = n;
+            }
+        }
+
+        System.out.println("Max: " + max);
+        System.out.println("Min: " + min);
     }
 }
