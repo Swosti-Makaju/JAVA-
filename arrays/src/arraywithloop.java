@@ -1,0 +1,54 @@
+public class arraywithloop {
+
+    public static void main(String[] args) {
+        int[] numbers = { 10, 20, 30, 40, 50 };
+
+        // For loop
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("Element at index " + i + " = " + numbers[i]);
+        }
+
+        // Enhanced for-each loop
+        System.out.println("Using for-each loop:");
+        for (int n : numbers) {
+            System.out.println(n);
+        }
+
+        // While loop
+        System.out.println("Using while loop:");
+        int j = 0;
+        while (j < numbers.length) {
+            System.out.println("Element at index " + j + " = " + numbers[j]);
+            j++;
+        }
+
+        // Do-while loop
+        System.out.println("Using do-while loop:");
+        int k = 0;
+        do {
+            System.out.println("Element at index " + k + " = " + numbers[k]);
+            k++;
+        } while (k < numbers.length);
+
+        // An array storing different ages
+        int ages[] = { 20, 22, 18, 35, 48, 26, 87, 70 };
+
+        float avg, sum = 0;
+
+        // Get the length of the array
+        int length = ages.length;
+
+        // Loop through the elements of the array
+        for (int age : ages) {
+            sum += age;
+        }
+
+        // Calculate the average by dividing the sum by the length
+        avg = sum / length;
+
+        // Print the average
+        System.out.println("The average age is: " + avg);
+
+        
+    }
+}
