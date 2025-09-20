@@ -65,5 +65,20 @@ public class arraywithloop {
 
         System.out.println("Max: " + max);
         System.out.println("Min: " + min);
+
+        int[] num = { 5, 10, 15, 20, 25 };
+        int target = 15;
+        boolean found = false;  
+        for (int n : num) {
+            if (n == target) {
+                found = true;
+                break;  
+            }
+        }
+        if (found) {
+            System.out.println(target + " is found in the array.");
+        } else {
+            System.out.println(target + " is not found in the array.");
+        }
     }
 }
