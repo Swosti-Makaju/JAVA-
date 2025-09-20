@@ -34,5 +34,28 @@ public class array {
       System.out.println(i);
     } // Outputs 10, 20, 30, 40
 
+    String[] car = new String[4]; // size is 4
+
+    car[0] = "Volvo";
+    car[1] = "BMW";
+    car[2] = "Ford";
+    car[3] = "Mazda";
+
+    System.out.println(car[0]); // Outputs Volvo
+
+    String[] food=new String[3];
+    food[0]="Pizza";
+    food[1]="Burger";
+    food[2]="Pasta";
+    System.out.println(food[0]); // Outputs Pizza
+    System.out.println(food[1]); // Outputs Burger
+    System.out.println(food[2]); // Outputs Pasta
+
+    String[] drinks=new String[3];
+    drinks[0]="Coke";
+    drinks[1]="Pepsi";
+    drinks[2]="Juice";
+    System.out.println(drinks[0]); // Outputs Coke
+    
   }
 }
