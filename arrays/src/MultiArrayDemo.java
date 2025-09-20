@@ -28,6 +28,16 @@ System.out.println("Rows: " + myNumberss.length);             // 2
 System.out.println("Cols in row 0: " + myNumberss[0].length); // 3
 System.out.println("Cols in row 1: " + myNumberss[1].length); // 5
 
+String[][] cars = {
+  { "Volvo", "BMW", "Ford" },
+    { "Mazda", "Toyota", "Honda" }
+};
+System.out.println(cars[0][0]); // Outputs Volvo
+System.out.println(cars[0][1]); // Outputs BMW  
+System.out.println(cars[0][2]); // Outputs Ford
+System.out.println(cars[1][0]); // Outputs Mazda
+System.out.println(cars[1][1]); // Outputs Toyota
+System.out.println(cars[1][2]); // Outputs Honda
 
     }
 }
