@@ -39,5 +39,9 @@ System.out.println(cars[1][0]); // Outputs Mazda
 System.out.println(cars[1][1]); // Outputs Toyota
 System.out.println(cars[1][2]); // Outputs Honda
 
+
+int[][] arr = { {1, 2, 3}, {4, 5} };
+System.out.println(arr[0][2]); // Outputs 3
+System.out.println(arr[1][1]); // Outputs 5
     }
 }

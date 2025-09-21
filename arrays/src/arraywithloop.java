@@ -86,5 +86,6 @@ public class arraywithloop {
         for (String fruit : fruits) {
             System.out.println(fruit);
         }
+        
     }
 }
