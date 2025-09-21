@@ -30,5 +30,14 @@ avg = sum / length;
 
 // Print the average
 System.out.println("The average age is: " + avg);
+
+
+// Enhanced for loop to iterate through an array of strings
+String[] fruits = {"Apple", "Banana", "Cherry", "Date"};
+for (String fruit : fruits) {
+    System.out.println(fruit);
   }
+
+  
+}
 }
