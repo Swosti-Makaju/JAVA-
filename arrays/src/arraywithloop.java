@@ -80,5 +80,11 @@ public class arraywithloop {
         } else {
             System.out.println(target + " is not found in the array.");
         }
+
+        // Enhanced for loop to iterate through an array of strings
+        String[] fruits = { "Apple", "Banana", "Cherry", "Date" };
+        for (String fruit : fruits) {
+            System.out.println(fruit);
+        }
     }
 }
