@@ -38,6 +38,10 @@ for (String fruit : fruits) {
     System.out.println(fruit);
   }
 
-  
+  // Enhanced for loop to iterate through an array of doubles
+  double[] prices = {19.99, 29.99, 39.99};
+  for (double price : prices) {
+      System.out.println(price);
+    }
 }
 }
