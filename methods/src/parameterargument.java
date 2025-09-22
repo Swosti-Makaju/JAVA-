@@ -18,4 +18,14 @@ public class parameterargument {
         myMethod2("Jenny", 8); //output: Jenny is 8
         myMethod2("Anja", 31); //output: Anja is 31
     }
+
+    //return value
+    static int myMethod3(int x) {
+        return 5 + x;
+    }
+    public static void main3(String[] args) {
+        System.out.println(myMethod3(3)); //output: 8
+        System.out.println(myMethod3(5)); //output: 10
+        System.out.println(myMethod3(7)); //output: 12
+    }
 }
