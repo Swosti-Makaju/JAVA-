@@ -46,4 +46,22 @@ public class parameterargument {
         System.out.println(myMethod3(5)); // output: 10
         System.out.println(myMethod3(7)); // output: 12
     }
+
+    //else if 
+    static void checkAge1(int age) {
+        if (age < 18) {
+            System.out.println("Access denied - You are not old enough!");
+        } else if (age == 18) {
+            System.out.println("Congratulations on your first year of adulthood!");
+        } else {
+            System.out.println("Access granted - You are old enough!");
+        }
+    }
+    public static void main4(String[] args) {
+        checkAge1(20); // output: Access granted - You are old enough!
+        checkAge1(18); // output: Congratulations on your first year of adulthood!
+        checkAge1(17); // output: Access denied - You are not old enough!
+    }
+
+    
 }
