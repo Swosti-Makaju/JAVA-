@@ -62,6 +62,4 @@ public class parameterargument {
         checkAge1(18); // output: Congratulations on your first year of adulthood!
         checkAge1(17); // output: Access denied - You are not old enough!
     }
-
-    
 }
