@@ -58,4 +58,20 @@ public class overloading {
         System.out.println("int: " + myNum1); // output: int: 13
         System.out.println("double: " + myNum2); // output: double: 10.56
     }
+
+    static void food() {
+        System.out.println("I like pizza!");
+    }
+    static void food(String fname) {
+        System.out.println(fname + " likes pizza!");
+    }
+    static void food(String fname, int age) {
+        System.out.println(fname + " is " + age + " years old and likes pizza!");
+    }
+    public static void main5(String[] args) {
+        food(); // output: I like pizza!
+        food("Liam"); // output: Liam likes pizza!
+        food("Liam", 5); // output: Liam is 5 years old and likes pizza!
+    }
+    
 }
